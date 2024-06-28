@@ -194,3 +194,48 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+/* globals.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.footer {
+  
+  color: #4a4a4a;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  position: relative;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer span {
+  margin-right: 4px;
+}
+
+.footer-link {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #0c63e4;
+}
