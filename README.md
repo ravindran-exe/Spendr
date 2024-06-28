@@ -4,7 +4,7 @@ Spendr is a sophisticated expense tracker application built using Next.js, Clerk
 
 Developed on the Next.js framework, Spendr leverages server-side rendering (SSR) capabilities to ensure fast loading times and optimal performance. It utilizes Next.js API routes for seamless backend operations, enabling robust data handling and interaction.
 
-Authentication and user management are handled securely by Clerk, which integrates OAuth-based login flows and JWT token management. This ensures that users can access Spendr with confidence, utilizing their preferred social accounts or email addresses for authentication.
+Authentication and user management are handled securely by Clerk. This ensures that users can access Spendr with confidence, utilizing their preferred social accounts or email addresses for authentication.
 
 Prisma ORM serves as the backbone for Spendr's data management, providing a type-safe and efficient interface for database operations. With Prisma, Spendr supports comprehensive CRUD (Create, Read, Update, Delete) operations, allowing users to manage their expense records seamlessly.
 
